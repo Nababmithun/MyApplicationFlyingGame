@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backround"
+    tools:context="com.androidlime.vermiculi_game.AboutActivity">
+
+
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:scaleY="1.2"
+        android:scaleX="1.1"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        android:textColor="#FFF5EEF1"
+        android:text="Engr.Mithun Kumar Riju"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:layout_marginLeft="35dp"
+        android:scaleY="1.2"
+        android:scaleX="1.1"
+        android:layout_marginTop="10dp"
+        android:textSize="13dp"
+        android:textColor="#FFF5EEF1"
+        android:text="Phone Number :\n01773838589"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/ttt"
+
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp" />
+
+</LinearLayout>
